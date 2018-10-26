@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+// 组长：指向index方法
+Route::get('abc','IndexController@index');
